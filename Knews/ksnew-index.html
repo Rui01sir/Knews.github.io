@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ksnew-index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="./images/logo(2).png">
+    <title>首頁 - 更生日報</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!-- 導覽列 -->
+  <div class="wrapper" style="z-index: 9999;">
+    <nav>
+      <input type="checkbox" id="show-search" >
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#"><img src="./images/logo(1).png" alt="logo" style="width: 200px;"></a></div>
+        <ul class="links">
+            <li><a href="#">今日即時</a></li>
+          <li>
+            <a href="#" class="desktop-link">花蓮新聞</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">花蓮新聞</label>
+            <ul>
+              <li><a href="#">花蓮焦點</a></li>
+              <li><a href="#">花蓮要聞</a></li>
+              <li><a href="#">花蓮生活</a></li>
+              <li><a href="#">花蓮社會</a></li>
+              <li><a href="#">花蓮教育</a></li>
+              <li><a href="#">花蓮綜合</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">台東新聞</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">台東新聞</label>
+            <ul>
+                <li><a href="#">台東焦點</a></li>
+                <li><a href="#">台東要聞</a></li>
+            </ul>
+          </li>
+          <li><a href="#">社論</a></li>
+          <li>
+            <a href="#" class="desktop-link">焦點</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">焦點</label>
+            <ul>
+              <li><a href="#">焦點新聞</a></li>
+              <li><a href="#">科技焦點</a></li>
+              <li><a href="#">社會焦點</a></li>
+              <li><a href="#">文教焦點</a></li>
+              <li><a href="#">醫療焦點</a></li>
+              <li><a href="#">交通焦點</a></li>
+            </ul>
+          </li>
+          <li><a href="#">國際</a></li>
+          <li><a href="#">股市</a></li>
+          <li><a href="#">影視</a></li>
+          <li><a href="#">體育</a></li>
+          <li>
+            <a href="#" class="desktop-link">更生廣場</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">更生廣場</label>
+            <ul>
+              <li><a href="#">活動看板</a></li>
+              <li><a href="#">藝文</a></li>
+              <li>
+                <a href="#" class="desktop-link">其他要聞</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">其他要聞</label>
+                <ul>
+                  <li><a href="#">副刊</a></li>
+                  <li><a href="#">專刊</a></li>
+                  <li><a href="#">兒童與青年</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="搜尋新聞" required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+<!-- 新聞 -->
+
+<div class="box" style="padding: 5%;">
+  <div class="box1"><p >廣告</p></div>
+  <!-- 導覽列 -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/未命名-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./images/未命名-2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/未命名-3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- 新聞分類 -->
+  <h2 style="margin-top:2%;">花蓮新聞</h2>
+  <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖1.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >「賺錢兔小提燈2/2限量發送 市公所邀您周末熱鬧度元宵</h1>
+          <h6>【記者張小菁／報導】  2023/02/02</h6>
+          <p>這個星期天（五日）就是元宵節，又稱「小過年」，花蓮市公所推出造型可愛的賺錢兔元宵燈籠，於二月二日上班時間，
+            在花蓮市公所提供民眾免費索取，吸引許多民眾前往索取，數量有限、送完為止。市長魏嘉彥表示，歡迎民眾相揪拿兔年小提燈，熱熱鬧鬧度元宵。</p>
+        </div>
+      </div>
+  </button>
+  <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖2.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >新城警轉介善心民眾捐贈紅包給佳民獨居老婦 受助老婦萬分感激</h1>
+          <h6>【記者田俊浩╱報導】  2023/02/02</h6>
+          <p>上月二十八日新城佳民派出所警員李韋霆關懷轄區獨居潘姓老婦，贈物資慰問之事，經媒體披露後，近日有二女善心特地前往佳民派出所拿出現金紅包袋，請警方轉交給弱勢潘姓老婦
+            ，讓警方感動不已，尤其在受助老婦領到二人的三千元及五千元紅包後，她萬分感激，十分感謝這位二女無私愛心。</p>
+        </div>
+      </div>
+  </button>
+  <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖3.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >縣長徐榛蔚會見國家災防科技中心 積極提升花蓮災防能量</h1>
+          <h6>【記者何國豐/報導】  2023/02/02</h6>
+          <p>花蓮縣長徐榛蔚二日與國家災害防救科技中心（NCDR）、國立東華大學學研團隊進行防災經驗交流分享， 議題聚焦在花蓮災害風險減輕和氣候變遷調適精進作為，以逐步提升極端災害下的整體災防能量。</p>
+        </div>
+      </div>
+  </button>
+
+  <h2>影音頻道</h2>
+  <div class="box2"><iframe width="80%" height="560px" src="https://www.youtube.com/embed/lItjz5_7f68" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+    <div class="box3"><span><p>廣告</p></span></div>
+  </div>
+   <!-- 國際新聞分類 -->
+   <h2 style="margin-top:2%;">國際新聞</h2>
+   <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖1.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >「賺錢兔小提燈2/2限量發送 市公所邀您周末熱鬧度元宵</h1>
+          <h6>【記者張小菁／報導】  2023/02/02</h6>
+          <p>這個星期天（五日）就是元宵節，又稱「小過年」，花蓮市公所推出造型可愛的賺錢兔元宵燈籠，於二月二日上班時間，
+            在花蓮市公所提供民眾免費索取，吸引許多民眾前往索取，數量有限、送完為止。市長魏嘉彥表示，歡迎民眾相揪拿兔年小提燈，熱熱鬧鬧度元宵。</p>
+        </div>
+      </div>
+  </button>
+  <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖2.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >新城警轉介善心民眾捐贈紅包給佳民獨居老婦 受助老婦萬分感激</h1>
+          <h6>【記者田俊浩╱報導】  2023/02/02</h6>
+          <p>上月二十八日新城佳民派出所警員李韋霆關懷轄區獨居潘姓老婦，贈物資慰問之事，經媒體披露後，近日有二女善心特地前往佳民派出所拿出現金紅包袋，請警方轉交給弱勢潘姓老婦
+            ，讓警方感動不已，尤其在受助老婦領到二人的三千元及五千元紅包後，她萬分感激，十分感謝這位二女無私愛心。</p>
+        </div>
+      </div>
+  </button>
+  <button style="width:100%;" onclick="location.href='#1'">
+    <div class="box4">
+        <img src="./images/新聞小圖3.png" alt="" style="width:35%;margin-top:1%;margin-bottom:1%; border-radius: 5%;overflow: hidden;">
+        <div class="box5">
+          <h1 >縣長徐榛蔚會見國家災防科技中心 積極提升花蓮災防能量</h1>
+          <h6>【記者何國豐/報導】  2023/02/02</h6>
+          <p>花蓮縣長徐榛蔚二日與國家災害防救科技中心（NCDR）、國立東華大學學研團隊進行防災經驗交流分享， 議題聚焦在花蓮災害風險減輕和氣候變遷調適精進作為，以逐步提升極端災害下的整體災防能量。</p>
+        </div>
+      </div>
+  </button>
+  <div class="box1" style="margin-bottom: 0;margin-top: 0;"><p >廣告</p></div>
+</div>
+<!-- footer -->
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+      <span><img src="./images/logo(1).png" alt="LOGO" style="width:200px"></span>
+
+      <p class="footer-links">
+          <a href="#">首頁</a>
+          |
+          <a href="#">即時</a>
+          |
+          <a href="#">焦點</a>
+          |
+          <a href="#">更生廣場</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2023 <strong>.....</strong> All rights reserved</p>
+  </div>
+
+  <div class="footer-center">
+      <div style="margin-bottom: 2%;">
+          <!-- <i class="fa fa-map-marker"></i> -->
+          <p>更生日報社股份有限公司<span>地址：花蓮市五權街36號</span>
+            </p>
+      </div>
+
+      <div style="margin-bottom: 2%;">
+          <!-- <i class="fa fa-phone"></i> -->
+          <p>電話：03-8340131</p>
+      </div>
+      <div style="margin-bottom: 2%;">
+          <!-- <i class="fa fa-envelope"></i> -->
+          <p><a href="keng-shen5@umail.hinet.net">keng-shen5@umail.hinet.net</a></p>
+      </div>
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+          <span>關於《更生日報》</span>
+          <strong>73年前，民國36年9月3日</strong>  更生日報在花蓮市誕生了。
+          那時的台灣，光復才兩年，不祇物質條件極為貧乏，就是精神上也非常苦悶；東部民眾的生活，
+          尤其是貧乏而苦悶。處在這樣的環境，又面對不可知的未來，本報創辦人謝膺毅先生，明知辦報之不易，卻毫不退縮。
+      </p>
+      <div class="footer-icons">
+          <a href="#"><i class='fa fa-facebook-square' style="color: #ffff;"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
