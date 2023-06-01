@@ -98,13 +98,13 @@ nav .content .links{
   height: 100%;
   /* max-width: calc(100% - 20px); */
   width: 100%;
-  /*opacity: 0;*/
+  opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
 }
 .wrapper #show-search:checked ~ .search-box{
   opacity: 1;
-  pointer-events: auto;
+  /* pointer-events: auto; */
 }
 
 .search-box input{
@@ -675,4 +675,4 @@ header span {
     .box5 p{
       display: none;
     }
-}                
+}       
